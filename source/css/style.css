@@ -1,0 +1,52 @@
+small {
+    display: block;
+    color: #888;
+}
+
+main.container, footer.container {
+    max-width: 900px;
+}
+
+footer.container {
+    margin-top: 30px;
+    padding: 30px 0;
+    border-top: 1px dashed #aaa;
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 980px) {
+    body {
+        padding-bottom: 40px;
+    }
+}
+
+body > main.container {
+    padding: 80px 15px 0; /* 80px to make the container go all the way to the bottom of the topbar */
+}
+
+
+/* Pretty printing styles. Used with prettify.js. */
+
+.str { color: #070; } /* strings */
+.kwd { color: #880; } /* special values like true, nil.. */
+.com { color: #822; } /* comments */
+.typ { color: #008; } /* class names */
+.lit { color: #066; } /* numbers and character literals */
+.pun { color: #555; } /* punctuation */
+.pln { color: #000; } /* plain text, methods and variable names */
+.tag { color: #059; } /* special variables like super, thisProcess... */
+.dec { color: #508; } /* declarations like var, const... */
+.atn { color: #285; } /* symbols */
+.atv { color: #750; } /* environment vars */
+
+
+pre {
+    padding: 10px;
+    background-color: #f8f9fa;
+
+}

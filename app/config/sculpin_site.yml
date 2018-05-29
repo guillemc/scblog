@@ -1,0 +1,10 @@
+# The contents of this file are parsed and made available as
+# via `site.*`. So for example, {{ site.title }} can be used
+# in a template to get the contents of the `title` key.
+title: SCNotes
+subtitle: My collection of SuperCollider notes and examples, mainly taken from the documentation and from Eli Fieldsteel tutorials...
+google_analytics_tracking_id: false
+
+# Insert your disqus shortname
+#disqus:
+#    shortname:
