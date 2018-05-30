@@ -23,6 +23,7 @@ use:
             {% endfor %}
             </p>
         {% endif %}
+        <p class="text-muted"><small>{{ post.date|date('M jS, Y') }}</small></p>
         <hr class="mb-4">
     </article>
 {% endfor %}
