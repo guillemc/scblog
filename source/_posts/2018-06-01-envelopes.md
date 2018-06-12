@@ -142,7 +142,7 @@ a.set(\gate, 0, \doneAction, 2);  // release and free the synth
 ~~~
 
 
-Example with `Routine` and `wait`:
+Example with `Routine`:
 
 ~~~
 (
